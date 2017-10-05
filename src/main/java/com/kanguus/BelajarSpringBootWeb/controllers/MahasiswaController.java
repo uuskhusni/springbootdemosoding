@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class MahasiswaController {
 
-    private MahasiswaService mahasiswaService;
+    /*8private MahasiswaService mahasiswaService;
 
     @Autowired
     public void setMahasiswaService(MahasiswaService mahasiswaService){
@@ -57,5 +57,5 @@ public class MahasiswaController {
     public String hapus(@PathVariable Integer id){
         mahasiswaService.hapus(id);
         return "redirect:/mahasiswa";
-    }
+    }*/
 }
